@@ -47,7 +47,7 @@ def main():
     collection_name = "local_codebase"
 
     # 1. Gather files to audit
-    target_dir = "./mock_project"
+    target_dir = "./targets/mock_project"
     files = get_code_files(target_dir)
     print(f"🔍 Found {len(files)} source files in {target_dir}")
 

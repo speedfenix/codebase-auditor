@@ -1,0 +1,19 @@
+## AI Cheat Sheet - important Commands:
+
+1) Qdrant - Docker container:
+
+    Start Stop container and database(Database ID Required): 
+    - "docker start f8262d91d83e"
+    - "docker stop f8262d91d83e"
+
+    The Senior Developer Shortcut (No IDs Required):
+        Instead of looking up the random container ID every time, you can use these smart one-liners. 
+        They automatically find your Qdrant container and cycle its power status:
+    - Start Qdrant instantly: "docker start $(docker ps -a -q --filter ancestor=qdrant/qdrant)"
+    - Stop Qdrant instantly: "docker stop $(docker ps -q --filter ancestor=qdrant/qdrant)"
+
+2) Python Virtual Environment (venv):
+
+    - To activate: "source venv/bin/activate"
+    - To deactivate: "deactivate"
+

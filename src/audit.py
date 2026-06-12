@@ -97,9 +97,9 @@ def main():
     print(json.dumps(parsed_report, indent=2))
     
     # Save the output file locally for day 7 reporting
-    with open("audit_report.json", "w") as f:
+    with open("reports/audit_report.json", "w") as f:
         f.write(raw_json_string)
-    print("\n💾 Formatted blueprint outputted safely to 'audit_report.json'")
+    print("\n💾 Formatted blueprint outputted safely to 'reports/audit_report.json'")
 
 if __name__ == "__main__":
     main()
