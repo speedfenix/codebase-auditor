@@ -6,7 +6,11 @@ An autonomous security agent engineered to run strictly on localized hardware (8
 
 This project utilizes a "Documentation-as-Code" methodology. The system architecture visualization is generated natively via Python using `matplotlib`.
 
-![System Architecture Blueprint](./self_healing_architecture.png)
+![System Architecture Blueprint]
+(./diagrams/01_ai_orchestration_graph.png)
+(./diagrams/02_uml_sequence.png)
+(./diagrams/03_c4_component.png)
+(./diagrams/04_physical_deployment.png)
 
 ### 🚨 Mandatory Synchronization Rule
 To prevent architectural rot, an internal project directive is in effect: **The visualization script (`generate_blueprint.py`) must be modified in accordance with any changes or modifications made to the whole system.** Regeneration of `self_healing_architecture.png` is required if any commit changes:
