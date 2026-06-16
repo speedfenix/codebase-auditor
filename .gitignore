@@ -8,3 +8,11 @@ __pycache__/
 
 # Ignore local IDE settings
 .vscode/
+
+# Ignore Kilo Files
+.kilo/
+
+# Ignore vscode workspace file
+codebase-auditor.code-workspace
+
+
